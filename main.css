@@ -23,7 +23,7 @@ p {
 }
 
 p.center {
-    color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
     font-family: Nunito, serif;
     font-size: 20px;
     text-align: center;
@@ -58,7 +58,7 @@ p.longtext {
 
 
 a {
-    color: rgb(185, 0, 125);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: Nunito, serif;
     text-decoration: none;
@@ -145,7 +145,7 @@ div.projects {
 }
 
 div.podval {
-    background-color: rgb(29, 0, 6);
+    background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 10%;
     top: 50%;
