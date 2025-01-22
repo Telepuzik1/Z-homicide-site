@@ -16,11 +16,18 @@
         <p>дискорд сервер <a href="https://discord.gg/YKSwWgWh" target="_blank">*тап*</a><br>
 <p>гайд <a href="https://youtu.be/deaYy_hIFYE?si=ASwW37SnNCg9SEW2" target="_blank">*тап*</a><br>
     
-  <audio controls autoplay loop>
-autostart="true
-hidden="false
-    <source src="music_gamestartup13.mp3" type="audio/ogg">
-  </audio>
+  <script>
+   window.onload = function () {
+     var context = new AudioContext();
+   };
+  </script>
+    <audio id="audio" loop autoplay>
+   <source src="music_gamestartup13.mp3" 
+   type="audio/mp3" />
+</audio>
+<script>
+   let audio = (document.getElementById('audio').autoplay = true);
+</script>
     
         <p>&nbsp;&copy; ТЕЛЕПУЗИК 2025</p>
     </div>
