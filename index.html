@@ -22,11 +22,12 @@
    };
   </script>
     <audio id="audio" loop autoplay>
-   <source src="music_gamestartup13.mp3" volume="-10"
-   type="audio/mp3" />
+   <source src="music_gamestartup13.mp3" type="audio/mp3" />
 </audio>
 <script>
-   let audio = (document.getElementById('audio').autoplay = true);
+   let audio = document.getElementById('audio');
+   audio.volume = 0.3;
+   audio.autoplay = true;
 </script>
     
         <p>&nbsp;&copy; ТЕЛЕПУЗИК 2025</p>
